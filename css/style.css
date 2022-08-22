@@ -1,0 +1,294 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/*
+font-family: 'Fira Sans', sans-serif;     400 código-projetos
+font-family: 'Playfair Display', serif;   500 titulos
+font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
+*/
+
+.footer {
+    color: #F8F8F8;
+    background-color: #141414;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+/*================= HEADER ====================*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: #f8f8f8;
+}
+
+/*== LOGO-marca ==*/
+
+.header-div-logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 10rem;
+}
+
+.header-div-lista {
+    display: flex;
+    align-items: center;
+}
+
+/*== MENU ==*/
+
+.ul-lista {
+    display: flex;
+    padding-right: 10rem;
+    list-style: none;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 20px;
+    color: #141414;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-right: 4rem;
+}
+
+.links:hover {
+    transition: 0.5s all;
+    text-decoration: underline;
+    text-decoration-color: #FD3E3E;
+}
+
+.links-contato {
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 20px;
+    color:  #EBEBEB;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 15px;
+    background-color: #141414;
+    border: 1px solid #141414;
+    border-radius: 4px;
+}
+
+.links-contato:hover {
+    transition: 0.5s ease-out;
+    font-weight: 700;
+    color: #141414;
+    background-color: #EBEBEB;
+}
+
+.header-linha-horizontal {
+    margin: 0px 10rem;
+    border: 1px solid #EFEFEF;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@======== SESSÃO 1 ====@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.sessao-1 {
+    padding: 10rem 0 9rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagem {
+    height: 500px;
+}
+
+.titulo-h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 5rem;
+    letter-spacing: 2px;
+    color: #141414;
+}
+
+.div-titulo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.ponto-titulo {
+    position: relative;
+    bottom: 1.2rem;
+    right: 11rem;
+}
+
+.paragrafo-sessao1 {
+    padding: 1rem 0 5rem 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #6e6e6e;
+}
+
+.paragrafo-sessao1 span {
+    font-weight: 700;
+}
+
+.div-linkedin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.botao-linkedin {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #141414;
+    font-size: 20px;
+    background-color: #EBEBEB;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border-bottom: 3px solid #141414;
+    margin-top: 25px;
+    text-shadow: 0px 2px 5px #00000027;
+    box-shadow: 0px 0px 5px #00000033;
+}
+
+.botao-linkedin svg {
+    padding-left: 10px;
+}
+
+.botao-linkedin:hover {
+    transition: 0.5s all;
+    background-color: #bdbdbd;
+}
+
+.div-disponivel {
+    padding-top: 1.2rem;
+    display: flex;
+}
+
+.disponivel {
+    font-size: 1.2rem;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    color: #6e6e6e;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@======== SESSÃO 2 ====@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.sessao-2 {
+    padding: 11rem 0 11rem 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #141414;
+}
+
+/*@@== Paragrafos ==@@*/
+
+.div-s2 {
+    display: flex;
+    padding: 10rem 0 0em 10rem;
+}
+
+.ponto-s2 {
+    margin-top: 5px;
+}
+
+.paragrafo-s2 {
+    color: #f8f8f8ef;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    width: 60%;
+}
+
+.paragrafo-s2 strong {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/*@@== Experiencias ==@@*/
+
+.div-experiencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 5rem;
+}
+
+.titulo-h2 {
+    font-family: 'Playfair Display', serif;
+    color: #F8F8F8;
+    font-weight: 500;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+.div-projetos {
+    display: flex;
+}
+
+.div-projeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    width: 200px;
+    background-color: #00000054;
+    margin-right: 5rem;
+    border-radius: 5px;
+    border-bottom: 2px solid #ffffff7c;
+}
+
+.div-projeto h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #f8f8f8;
+    padding: 4rem 1rem 3rem;
+}
+
+.div-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-github {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #f8f8f813;
+    border-left: 1px solid #ffffff7c;
+}
+
+.link-sites {
+    background-color: #f8f8f813;
+    padding: 10px;
+    width: 72%;
+    display: flex;
+    justify-content: center;
+}
+
+.link-github:hover {
+    transition: 0.5s all;
+    background-color: #f8f8f82a;
+}
+
+.link-sites:hover {
+    transition: 0.5s all;
+    background-color: #f8f8f82a;
+}
