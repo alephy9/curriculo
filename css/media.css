@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1600px) {
+
+    /*header + menu nav*/
+
+    .header-container1 {
+        padding-left: 5rem;
+    }
+
+    .ul-lista {
+        padding-right: 5rem;
+    }
+
+    /*sessao 1, imagem + titulo + svg*/
+
+    .imagem {
+        padding-left: 8rem;
+    }
+
+    .container2-s1 {
+        padding-right: 10rem;
+    }
+
+    .titulo-h1 {
+        font-size: 3.5rem;
+    }
+
+    .svg-ponto-titulo {
+        bottom: 0.8rem;
+        right: 8rem;
+    }
+
+    /*sessao 2, Paragrafo */
+
+    .component1-s2 {
+        padding: 10rem 0 0 5rem;
+        width: 475px;
+    }
+
+    .paragrafo-s2 {
+        letter-spacing: 1px;
+        font-size: 1rem;
+    }
+
+    .container2-s2 {
+        padding-right: 0rem;
+        width: 600px;
+        height: 39.5rem;
+    }
+
+    .titulo-h2-s2-s3 {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .component2-s2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hidden1-s2 {
+        margin-right: 1rem;
+        justify-content: flex-end;
+        height: 150px;
+        width: 150px;
+    }
+
+    .hidden1-s2 h3 {
+        font-size: 1rem;
+        padding: 0rem 1rem 2rem;
+        line-height: 1.2rem;
+    }
+
+    /*Sessao 3 Formaçao Curso Contato */
+
+    .container1-s3 {
+        padding-left: 5rem;
+        width: 500px;
+    }
+
+    .container2-s3 {
+        padding: 11rem 8rem 0 0;
+    }
+
+    .component2-s3 {
+        padding: 1rem;
+    }
+    
+    .svg-trabalho {
+        margin-top: 0.4rem;
+    }
+
+    .titulo-trabalho {
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    
+    /*header + menu nav*/
+
+    .header-container1 {
+        padding-left: 2rem;
+    }
+
+    .ul-lista {
+        padding-right: 2rem;
+    }
+
+    /*sessao 1, imagem + titulo + svg*/
+
+    .imagem {
+        padding-left: 4rem;
+        height: 400px
+    }
+
+    .container2-s1 {
+        padding-right: 4rem;
+    }
+
+    .titulo-h1 {
+        font-size: 3rem;
+    }
+
+    .svg-ponto-titulo {
+        bottom: 0.6rem;
+        right: 6.5rem;
+    }
+
+    .component2-s1 {
+        width: 100%;
+    }
+
+    /*sessao 2, Paragrafo */
+
+    .sessao-2 {
+        padding: 6rem 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container1-s2 {
+        padding-bottom: 5rem;
+    }
+
+    .svg-decoracao {
+        position: absolute;
+        left: 0px;
+    }
+
+    .component1-s2 {
+        padding: 6rem 1rem;
+        width: 500px;
+    }
+
+    .paragrafo-s2 {
+        font-size: 1.2rem;
+    }
+
+    .container2-s2 {
+        width: 750px;
+    }
+
+    .component2-s2 {
+        justify-content: space-evenly;
+    }
+
+    .hidden1-s2 {
+        margin-right: 0rem;
+        height: 170px;
+        width: 170px;
+    }
+
+    .hidden1-s2 h3 {
+        font-size: 1.2rem;
+        padding: 0rem 1rem 2.5rem;
+        line-height: 1.5rem;
+    }
+
+    /*Sessao 3 Formaçao Curso Contato */
+
+    .container1-s3 {
+        padding-left: 2rem;
+        width: 375px;
+    }
+
+    .titulo-h3 {
+        font-size: 1rem;
+    }
+
+    .elemento1-div1-s3 {
+        padding-top: 10px;
+    }
+
+    .container2-s3 {
+        padding: 11rem 4rem 0 0;
+    }
+
+    .component2-s3 {
+        padding: 1rem;
+    }
+    
+    .svg-trabalho {
+        margin-top: 0rem;
+    }
+
+    .titulo-trabalho {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+ 
+}
+
+@media screen and (max-width: 800px) {
+
+    body {
+        background-color: rgba(0, 255, 136, 0.158);
+    }  
+    
+}

@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #f8f8f8;
 }
@@ -30,7 +34,7 @@ body {
 
 /*== LOGO-marca ==*/
 
-.header-container1{
+.header-container1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -92,18 +96,24 @@ body {
 /*@@@@@@@@@@@@@@@=== SESSÃO 1 ===@@@@@@@@@@@@@@@*/
 
 .sessao-1 {
-    padding: 10rem 0 9rem 0;
+    padding: 10rem 0 9rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 /*============= IMAGEM ==========*/
 
 .imagem {
+    padding-left: 15rem;
     height: 500px;
+    max-width: 100%;
 }
 
 /*= TITULOS,PARAGRAFOS,BOTOES,ICONES =*/
+
+.container2-s1 {
+    padding-right: 15rem;
+}
 
 .component1-s1 {
     display: flex;
@@ -182,17 +192,19 @@ body {
 /*@@@@@@@@@@@@@@@=== SESSÃO 2 ===@@@@@@@@@@@@@@@*/
 
 .sessao-2 {
-    padding: 11rem 0 11rem 0;
+    padding: 11rem 0;
     display: flex;
     justify-content: space-between;
     background-color: #141414;
+    width: 100%;
 }
 
 /*@@== Paragrafos ==@@*/
 
 .component1-s2 {
     display: flex;
-    padding: 10rem 0 0em 10rem;
+    padding: 10rem 0 0 10rem;
+    width: 600px;
 }
 
 .svg-ponto-s2 {
@@ -205,9 +217,9 @@ body {
     letter-spacing: 1px;
     font-weight: 400;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2rem;
-    width: 60%;
+    width: 100%;
 }
 
 .paragrafo-s2 strong {
@@ -218,10 +230,11 @@ body {
 /*@@== Experiencias ==@@*/
 
 .container2-s2 {
+    padding-right: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-right: 5rem;
+    height: 41rem;
 }
 
 .titulo-h2-s2-s3 {
@@ -237,13 +250,13 @@ body {
 }
 
 .hidden1-s2 {
+    margin-right: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
     width: 200px;
     background-color: #00000054;
-    margin-right: 5rem;
     border-radius: 5px;
     border-bottom: 2px solid #ffffff7c;
 }
@@ -365,10 +378,11 @@ body {
 /*@@== CONTATO ==@@*/
 
 .container2-s3 {
-    padding: 12rem 20rem 0 0;
+    padding: 9rem 10rem 0 0;
 }
 
 .component2-s3 {
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -406,8 +420,6 @@ body {
 .contato-email:hover, .contato-tel:hover {
     color: #ececec81;
     transition: 0.3s all;
-    text-decoration: underline;
-    text-decoration-color: white;
 }
 
 /* Guia de leitura do código 
