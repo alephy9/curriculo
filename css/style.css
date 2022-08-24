@@ -10,12 +10,6 @@ body {
     background-color: #f8f8f8;
 }
 
-/*
-font-family: 'Fira Sans', sans-serif;     400 código-projetos
-font-family: 'Playfair Display', serif;   500 titulos
-font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
-*/
-
 .footer {
     color: #F8F8F8;
     background-color: #141414;
@@ -36,14 +30,14 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
 
 /*== LOGO-marca ==*/
 
-.header-div-logo {
+.header-container1{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-left: 10rem;
 }
 
-.header-div-lista {
+.header-container2 {
     display: flex;
     align-items: center;
 }
@@ -90,12 +84,12 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     background-color: #EBEBEB;
 }
 
-.header-linha-horizontal {
+.header-linha {
     margin: 0px 10rem;
     border: 1px solid #EFEFEF;
 }
 
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@======== SESSÃO 1 ====@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@=== SESSÃO 1 ===@@@@@@@@@@@@@@@*/
 
 .sessao-1 {
     padding: 10rem 0 9rem 0;
@@ -103,8 +97,18 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     justify-content: space-evenly;
 }
 
+/*============= IMAGEM ==========*/
+
 .imagem {
     height: 500px;
+}
+
+/*= TITULOS,PARAGRAFOS,BOTOES,ICONES =*/
+
+.component1-s1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .titulo-h1 {
@@ -115,30 +119,24 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     color: #141414;
 }
 
-.div-titulo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.ponto-titulo {
+.svg-ponto-titulo {
     position: relative;
     bottom: 1.2rem;
     right: 11rem;
 }
 
-.paragrafo-sessao1 {
+.paragrafo1-s1 {
     padding: 1rem 0 5rem 5px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #6e6e6e;
 }
 
-.paragrafo-sessao1 span {
+.paragrafo1-s1 span {
     font-weight: 700;
 }
 
-.div-linkedin {
+.component2-s1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -168,12 +166,12 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     background-color: #bdbdbd;
 }
 
-.div-disponivel {
+.hidden1-s1 {
     padding-top: 1.2rem;
     display: flex;
 }
 
-.disponivel {
+.paragrafo2-s1 {
     font-size: 1.2rem;
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -181,7 +179,7 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     color: #6e6e6e;
 }
 
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@======== SESSÃO 2 ====@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@@@@@@@@@@@@@@=== SESSÃO 2 ===@@@@@@@@@@@@@@@*/
 
 .sessao-2 {
     padding: 11rem 0 11rem 0;
@@ -192,12 +190,12 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
 
 /*@@== Paragrafos ==@@*/
 
-.div-s2 {
+.component1-s2 {
     display: flex;
     padding: 10rem 0 0em 10rem;
 }
 
-.ponto-s2 {
+.svg-ponto-s2 {
     margin-top: 5px;
 }
 
@@ -219,14 +217,14 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
 
 /*@@== Experiencias ==@@*/
 
-.div-experiencia {
+.container2-s2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-right: 5rem;
 }
 
-.titulo-h2 {
+.titulo-h2-s2-s3 {
     font-family: 'Playfair Display', serif;
     color: #F8F8F8;
     font-weight: 500;
@@ -234,11 +232,11 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     letter-spacing: 3px;
 }
 
-.div-projetos {
+.component2-s2 {
     display: flex;
 }
 
-.div-projeto {
+.hidden1-s2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -250,7 +248,7 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     border-bottom: 2px solid #ffffff7c;
 }
 
-.div-projeto h3 {
+.hidden1-s2 h3 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
@@ -260,7 +258,7 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     padding: 4rem 1rem 3rem;
 }
 
-.div-box {
+.elemento1-s2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -283,22 +281,12 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     justify-content: center;
 }
 
-.link-github:hover {
+.link-github:hover, .link-sites:hover  {
     transition: 0.5s all;
     background-color: #f8f8f82a;
 }
 
-.link-sites:hover {
-    transition: 0.5s all;
-    background-color: #f8f8f82a;
-}
-
-/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@======== SESSÃO 3 ====@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
-
-.element-s3-linha {
-    margin-left: 5rem;
-    border: 1px solid #343434;
-}
+/*@@@@@@@@@@@@@@@=== SESSÃO 3 ===@@@@@@@@@@@@@@@*/
 
 .sessao-3 {
     display: flex;
@@ -324,16 +312,12 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     padding-bottom: 2rem;
 }
 
-.svg-curso {
-    margin-top: 1.2rem;
-}
-
 .hidden2-s3 {
     padding-left: 3rem;
     display: flex;
 }
 
-.div1-s3 {
+.elemento1-s3 {
     padding-left: 1rem;
     display: flex;
     flex-direction: column;
@@ -347,7 +331,7 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     font-weight: 400;
 }
 
-.div2-s3 {
+.elemento1-div1-s3 {
     font-family: 'Roboto', sans-serif;
     color: #505050;
     font-size: 14px;
@@ -358,7 +342,16 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     justify-content: space-between;
 }
 
-.div3-s3 {
+.linha-s3 {
+    margin-left: 5rem;
+    border: 1px solid #343434;
+}
+
+.svg-curso {
+    margin-top: 1.2rem;
+}
+
+.elemento1-div2-s3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -401,10 +394,35 @@ font-family: 'Roboto', sans-serif;        400 / 700 paragrafo+funcionail
     padding-left: 1rem;
 }
 
-.contato-email {
+.contato-email, .contato-tel {
+    padding-top: 2rem;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     letter-spacing: 1px;
     color: #ececec;
     text-decoration: none;
 }
+
+.contato-email:hover, .contato-tel:hover {
+    color: #ececec81;
+    transition: 0.3s all;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+/* Guia de leitura do código 
+
+    1. sessão             
+     2. container
+      3. component
+       4. hidden
+        5. elemento
+         6. elemento + tag
+
+    Obs* os números acrescentados aos lados
+         serão indicadores de sequências do código INTEIRO !!
+
+         Esses nomes são usados nas caixas, nas tags diretamente
+         uso nomes independentes
+
+*/
