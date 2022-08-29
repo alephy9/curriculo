@@ -398,14 +398,9 @@
     .component2-s3 {
         padding: 1rem;
     }
-    
-    .svg-trabalho {
-        margin-top: 0.1rem;
-    }
 
     .titulo-trabalho {
-        font-size: 15px;
-        letter-spacing: 1px;
+        font-size: 1.1rem;
     }
 
     .contato-email, .contato-tel {
